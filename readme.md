@@ -3,7 +3,7 @@
 A Express app that organizes all the files in the directory.
 
 ## What will this app do?
-All the files in `folder` directory will be sorted/organized properly.<br>
+All the files in `folder` directory will be sorted/organized properly.<br><br>
 For example:<br>
 You have these files:<br>
 `folder/name.jpg`<br>
@@ -14,10 +14,10 @@ You have these files:<br>
 `folder/cat.jpg` <br>
 `folder/harry.pdf`<br>
 They will become: <br>
-`jpg/name.jpg, jpg/cat.jpg `<br>
-`png/name.png `<br>
-`pdf/this.pdf pdf/harry.pdf`<br>
-`zip/harry.zip zip/Rohan.zip`<br>
+`folder/jpg/name.jpg, folder/jpg/cat.jpg  `<br>
+`folder/png/name.png `<br>
+`folder/pdf/this.pdf, folder/pdf/harry.   pdf`<br>
+`folder/zip/harry.zip, folder/zip/Rohan.  zip`<br>
 
 ## Prerequisites:
 - Node.js latest version installed
